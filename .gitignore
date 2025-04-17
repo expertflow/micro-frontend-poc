@@ -1,3 +1,15 @@
+/host-app/node_modules
+/mfe1/node_modules
+/mfe2/node_modules
+
+/host-app/package-lock.json
+/mfe1/package-lock.json
+/mfe2/package-lock.json
+
+/host-app/.angular
+/mfe1/.angular
+/mfe2/.angular
+
 # Logs
 logs
 *.log

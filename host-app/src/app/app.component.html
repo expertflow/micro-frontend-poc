@@ -1,0 +1,17 @@
+<ul>
+  <li>
+    <a routerLink="/mfe1">mfe1</a>
+  </li>
+</ul>
+<button type="button" class="btn btn-primary" (click)="load()">Load mfe2</button>
+
+<div class="container w-25">
+  <p *ngIf="msgFrmChild">Post Message -- > {{msgFrmChild}}</p>
+  <button type="button" class="btn btn-dark" (click)="sendMessageToChild()">To Child (Post Message)</button>
+</div>
+
+<hr>
+
+<div #placeholder></div>
+
+<router-outlet></router-outlet>
